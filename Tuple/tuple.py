@@ -16,4 +16,4 @@ print(" ")
 print(t.index(40))
 
 print(" ")
-print(sum(t,10))
+print(sum(t))
