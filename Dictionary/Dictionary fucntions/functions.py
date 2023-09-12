@@ -17,9 +17,16 @@ for a,b in d.items():
 for a in d.values():
     print(a)
 
-
+# deletion  in dectionary
 del d['Duration']
 print(d)
 
+# pop fucntion return a value which we want to delete
 print(d.pop('Name'))
+print(d)
+
+d['desc'] = 'this is python course'
+print(d)
+
+d['Fees'] = 1000
 print(d)
