@@ -16,3 +16,10 @@ for a,b in d.items():
 
 for a in d.values():
     print(a)
+
+
+del d['Duration']
+print(d)
+
+print(d.pop('Name'))
+print(d)
