@@ -1,5 +1,8 @@
 class demo:
     a = 10
+    def __init__(self):## constructor
+        print("hyy! , my name is Amul")
+
     def method1(self):
         ##print(a)--- this is wronge 
         print(self.a)
